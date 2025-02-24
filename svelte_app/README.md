@@ -6,12 +6,12 @@
 
  date    : 2025/02/21 
 
- update  :
+ update  : 2025/02/24
 
 ***
 ### Summary
 
-svelte_app , example
+d1 + workers , svelte example
 
 * vercel example
 
