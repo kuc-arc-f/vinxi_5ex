@@ -21,6 +21,12 @@ svelte_app , example
 https://github.com/kuc-arc-f/workers21/tree/main/svelte_example
 
 ***
+* .env
+
+```
+VITE_API_URL=http://localhost:8787
+```
+***
 * dev-start
 ```
 npm run dev
