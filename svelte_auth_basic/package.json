@@ -1,0 +1,28 @@
+{
+  "name": "example-svelte",
+  "type": "module",
+  "private": true,
+  "version": null,
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build --preset vercel-edge",
+    "build:local": "vinxi build",
+    "start": "vinxi start --preset vercel-edge",
+    "start:local": "vinxi start"
+  },
+  "dependencies": {
+    "@picocss/pico": "^1.5.10",
+    "autoprefixer": "^10.4.15",
+    "svelte-spa-router": "^4.0.1",
+    "tailwindcss": "^3.3.3",
+    "vinxi": "0.5.3"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "@tsconfig/svelte": "^5.0.4",
+    "svelte": "^5.19.6",
+    "svelte-check": "^4.1.4",
+    "typescript": "~5.7.2",
+    "vite": "^6.1.0"
+  }
+}
